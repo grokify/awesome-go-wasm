@@ -4,16 +4,21 @@
 
 - [Awesome Go WASM](#awesome-go-wasm)
   - [Contents](#contents)
-  - [Examples](#examples)
+  - [Go Brower Examples](#go-examples)
+  - [TinyGo Browser Examples](#tinygo-examples)
   - [Go Runtimes](#go-runtimes)
 
-## Go Examples
+## Go Browser Examples
 
 _WebAssembly examples in Go_
 
 - [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 
 **[⬆ back to top](#contents)**
+
+# TinyGo Browser Examples
+
+- [Official TinyGo Example](https://tinygo.org/docs/guides/webassembly/) - How to call WebAssembly from JavaScript in a browser. You can call a JavaScript function from Go and call a Go function from WebAssembly:
 
 ## Go Runtimes
 
