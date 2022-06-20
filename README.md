@@ -1,5 +1,4 @@
-# awesome-idmef
-List of IDMEF implementations, documentation, ...
+# Awesome Go WASM
 
 ## Contents
 
