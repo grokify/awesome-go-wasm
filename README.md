@@ -7,6 +7,7 @@
   - [Go Brower Examples](#go-browser-examples)
   - [TinyGo Browser Examples](#tinygo-browser-examples)
   - [Go Runtimes](#go-runtimes)
+  - [Go Runtimes](#go-runtimes-for-fastly)
 
 ## Go Browser Examples
 
@@ -29,5 +30,9 @@ _Go Runtimes for WASM runtimes_
 - [WasmEdge WebAssembly runtime for Go - github.com/second-state/WasmEdge-go](https://github.com/second-state/WasmEdge-go) - The [WasmEdge](https://github.com/WasmEdge/WasmEdge) is a high performance WebAssembly runtime optimized for server side applications. This project provides a [golang](https://go.dev/) package for accessing to WasmEdge.
 - [Wasmer WebAssembly runtime for Go](https://github.com/wasmerio/wasmer-go) - A complete and mature WebAssembly runtime for Go based on [Wasmer](https://github.com/wasmerio/wasmer) - The leading WebAssembly Runtime supporting WASI and Emscripten.
 - [Wasmtime WebAssembly runtime for Go - github.com/bytecodealliance/wasmtime-go](https://github.com/bytecodealliance/wasmtime-go) - This Go library uses CGO to consume the C API of the [Wasmtime](https://github.com/bytecodealliance/wasmtime) project which is written in Rust. Precompiled binaries of Wasmtime are checked into this repository on tagged releases so you won't have to install Wasmtime locally, but it means that this project only works on Linux x86_64, macOS x86_64 , and Windows x86_64 currently. Building on other platforms will need to arrange to build Wasmtime and use CGO_* env vars to compile correctly. Wasmtime is a standalone JIT-style runtime for WebAssembly, using Cranelift.
+
+## Go Runtimes for Fastly
+
+- [fastlike](https://github.com/avidal/fastlike) - fastlike is a Go project that implements the Fastly Compute@Edge ABI using `wasmtime` and exposes a `http.Handler` for you to use.
 
 **[⬆ back to top](#contents)**
