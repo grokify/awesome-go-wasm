@@ -36,7 +36,7 @@ _Go Runtimes for WASM runtimes_
 
 ## waPC - WebAssembly Procedure Calls
 
-- [waPC Host for Go](https://github.com/wapc/wapc-go) ![](https://pkg.go.dev/badge/github.com/wapc/wapc-go)](https://pkg.go.dev/github.com/wapc/wapc-go) [![Gitter](https://badges.gitter.im/wapc/community.svg)](https://gitter.im/wapc/community) — Golang-based WebAssembly Host Runtime for waPC-compliant modules
+- [waPC Host for Go](https://github.com/wapc/wapc-go) [![](https://pkg.go.dev/badge/github.com/wapc/wapc-go)](https://pkg.go.dev/github.com/wapc/wapc-go) [![Gitter](https://badges.gitter.im/wapc/community.svg)](https://gitter.im/wapc/community) — Golang-based WebAssembly Host Runtime for waPC-compliant modules
 - [waPC Guest Library for TinyGo](https://github.com/wapc/wapc-guest-tinygo) [![](https://pkg.go.dev/badge/github.com/wapc/wapc-guest-tinygo)](https://pkg.go.dev/github.com/wapc/wapc-guest-tinygo) [![Gitter](https://badges.gitter.im/wapc/community.svg)](https://gitter.im/wapc/community) — SDK for creating waPC WebAssembly Guest Modules in TinyGo
 
 **[⬆ back to top](#contents)**
