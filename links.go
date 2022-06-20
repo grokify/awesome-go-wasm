@@ -27,7 +27,7 @@ func Resources() []Resource {
 		{
 			Tags:       []string{"Go Runtimes"},
 			URL:        "github.com/bytecodealliance/wasmtime-go",
-			Title:      "Wasmer WebAssembly runtime for Go",
+			Title:      "Wasmtime WebAssembly runtime for Go",
 			AccessDate: "2022-06-20",
 			Excerpt: `This Go library uses CGO to consume the C API of the [Wasmtime](https://github.com/bytecodealliance/wasmtime) project which is written in Rust. Precompiled binaries of Wasmtime are checked into this repository on tagged releases so you won't have to install Wasmtime locally, but it means that this project only works on Linux x86_64, macOS x86_64 , and Windows x86_64 currently. Building on other platforms will need to arrange to build Wasmtime and use CGO_* env vars to compile correctly. Wasmtime is a standalone JIT-style runtime for WebAssembly, using Cranelift.`,
 		},
