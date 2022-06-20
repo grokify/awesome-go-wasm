@@ -4,12 +4,12 @@
 
 - [Awesome Go WASM](#awesome-go-wasm)
   - [Contents](#contents)
-  - [Go Brower Examples](#go-browser-examples)
-  - [TinyGo Browser Examples](#tinygo-browser-examples)
+  - [Go Guest Examples](#go-guest-examples)
+  - [TinyGo Guest Examples](#tinygo-guest-examples)
   - [Go Runtimes](#go-runtimes)
   - [Go Runtimes for Fastly](#go-runtimes-for-fastly)
 
-## Go Browser Examples
+## Go Guest Examples
 
 _WebAssembly examples in Go_
 
@@ -17,9 +17,10 @@ _WebAssembly examples in Go_
 
 **[⬆ back to top](#contents)**
 
-## TinyGo Browser Examples
+## TinyGo Guest Examples
 
-- [Official TinyGo Example](https://tinygo.org/docs/guides/webassembly/) - How to call WebAssembly from JavaScript in a browser. You can call a JavaScript function from Go and call a Go function from WebAssembly:
+- [Official TinyGo Browser Example](https://tinygo.org/docs/guides/webassembly/) - How to call WebAssembly from JavaScript in a browser. You can call a JavaScript function from Go and call a Go function from WebAssembly.
+- [WASI Hello World Example in Go from Wasm by Example](https://wasmbyexample.dev/examples/wasi-hello-world/wasi-hello-world.go.en-us.html) - In this example, We will be writing "Hello world!" to both the console (`stdout`), and a newly created file `helloworld.txt`. We highly reccomended that you have read the [WASI Introduction](https://wasmbyexample.dev/examples/wasi-introduction/wasi-introduction.all.en-us.html) before procedding with this example.
 
 **[⬆ back to top](#contents)**
 
