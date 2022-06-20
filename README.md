@@ -7,7 +7,7 @@
   - [Go Brower Examples](#go-browser-examples)
   - [TinyGo Browser Examples](#tinygo-browser-examples)
   - [Go Runtimes](#go-runtimes)
-  - [Go Runtimes](#go-runtimes-for-fastly)
+  - [Go Runtimes for Fastly](#go-runtimes-for-fastly)
 
 ## Go Browser Examples
 
