@@ -1,4 +1,4 @@
-# Awesome Go WASM
+# Awesome Go Wasm [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ## Contents
 
