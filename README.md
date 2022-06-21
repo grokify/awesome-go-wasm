@@ -8,7 +8,7 @@
   - [TinyGo Guest Examples](#tinygo-guests)
   - [Go Libraries](#go-libraries)
   - [Go Runtimes](#go-runtimes)
-  - [Go Runtimes for Fastly](#go-runtimes-for-fastly)
+  - [waPC - WebAssembly Procedure Calls](wapc-webAssembly-procedure-calls)
 
 ## Go Guest Examples
 
