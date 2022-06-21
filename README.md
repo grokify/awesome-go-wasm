@@ -40,6 +40,7 @@ _Go Runtimes for WASM runtimes_
 - [Wasmer WebAssembly runtime for Go](https://github.com/wasmerio/wasmer-go) - A complete and mature WebAssembly runtime for Go based on [Wasmer](https://github.com/wasmerio/wasmer) - The leading WebAssembly Runtime supporting WASI and Emscripten.
 - [Wasmtime WebAssembly runtime for Go](https://github.com/bytecodealliance/wasmtime-go) [![](https://pkg.go.dev/badge/github.com/bytecodealliance/wasmtime-go)](https://pkg.go.dev/github.com/bytecodealliance/wasmtime-go) — This Go library uses CGO to consume the C API of the [Wasmtime](https://pkg.go.dev/github.com/bytecodealliance/wasmtime) project which is written in Rust. Precompiled binaries of Wasmtime are checked into this repository on tagged releases so you won't have to install Wasmtime locally, but it means that this project only works on Linux x86_64, macOS x86_64 , and Windows x86_64 currently. Building on other platforms will need to arrange to build Wasmtime and use CGO_* env vars to compile correctly. Wasmtime is a standalone JIT-style runtime for WebAssembly, using Cranelift.
 - [Wasmtime host example](https://docs.wasmtime.dev/lang-go.html) - Example of calling a GCD function (provided as witx). Func `(func $gcd (param i32 i32) (result i32) ...)` is called as `val, err := gcd.Call(store, 6, 27)`.
+- [fastlike](https://github.com/avidal/fastlike) — fastlike is a Go project that implements the Fastly Compute@Edge ABI using `wasmtime` and exposes a `http.Handler` for you to use.
 
 **[⬆ back to top](#contents)**
 
@@ -47,11 +48,5 @@ _Go Runtimes for WASM runtimes_
 
 - [waPC Host for Go](https://github.com/wapc/wapc-go) [![](https://pkg.go.dev/badge/github.com/wapc/wapc-go)](https://pkg.go.dev/github.com/wapc/wapc-go) [![Gitter](https://badges.gitter.im/wapc/community.svg)](https://gitter.im/wapc/community) — Golang-based WebAssembly Host Runtime for waPC-compliant modules
 - [waPC Guest Library for TinyGo](https://github.com/wapc/wapc-guest-tinygo) [![](https://pkg.go.dev/badge/github.com/wapc/wapc-guest-tinygo)](https://pkg.go.dev/github.com/wapc/wapc-guest-tinygo) [![Gitter](https://badges.gitter.im/wapc/community.svg)](https://gitter.im/wapc/community) — SDK for creating waPC WebAssembly Guest Modules in TinyGo
-
-**[⬆ back to top](#contents)**
-
-## Go Runtimes for Fastly
-
-- [fastlike](https://github.com/avidal/fastlike) — fastlike is a Go project that implements the Fastly Compute@Edge ABI using `wasmtime` and exposes a `http.Handler` for you to use.
 
 **[⬆ back to top](#contents)**
