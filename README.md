@@ -27,6 +27,7 @@ _WebAssembly examples in Go_
 
 ## Go Libraries
 
+- [Wat2Wasm function](https://github.com/bytecodealliance/wasmtime-go/blob/main/wat2wasm.go) [![](https://pkg.go.dev/badge/github.com/bytecodealliance/wasmtime-go)](https://pkg.go.dev/github.com/bytecodealliance/wasmtime-go#Wat2Wasm) - function from Wasmtime to convert Wat/Witx text format of WebAssembly to the binary format.
 - [Vugu](https://github.com/vugu/vugu) [![](https://pkg.go.dev/badge/github.com/vugu/vugu)](https://pkg.go.dev/github.com/vugu/vugu) — Vugu is an experimental library for web UIs written in Go and targeting webassembly. Guide and docs at https://www.vugu.org. Godoc at https://godoc.org/github.com/vugu/vugu.
 - [WASM-FETCH](https://github.com/marwan-at-work/wasm-fetch) [![](https://pkg.go.dev/badge/github.com/marwan-at-work/wasm-fetch)](https://pkg.go.dev/marwan.io/wasm-fetch) — A go-wasm library that wraps the Fetch API. This is useful since TinyGo does not support `net/http`.
 
