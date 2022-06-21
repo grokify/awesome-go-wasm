@@ -9,7 +9,7 @@
   - [Go Runtimes](#go-runtimes)
   - [Go Runtimes for Fastly](#go-runtimes-for-fastly)
 
-## Go Guests
+## Go Guest Examples
 
 _WebAssembly examples in Go_
 
@@ -17,10 +17,16 @@ _WebAssembly examples in Go_
 
 **[⬆ back to top](#contents)**
 
-## TinyGo Guests
+## TinyGo Guest Examples
 
 - [Official TinyGo Browser Example](https://tinygo.org/docs/guides/webassembly/) - How to call WebAssembly from JavaScript in a browser. You can call a JavaScript function from Go and call a Go function from WebAssembly.
 - [WASI Hello World Example in Go from Wasm by Example](https://wasmbyexample.dev/examples/wasi-hello-world/wasi-hello-world.go.en-us.html) - In this example, We will be writing "Hello world!" to both the console (`stdout`), and a newly created file `helloworld.txt`. We highly reccomended that you have read the [WASI Introduction](https://wasmbyexample.dev/examples/wasi-introduction/wasi-introduction.all.en-us.html) before procedding with this example.
+
+**[⬆ back to top](#contents)**
+
+## Go Libraries
+
+- [Vugu](https://github.com/vugu/vugu) — Vugu is an experimental library for web UIs written in Go and targeting webassembly. Guide and docs at https://www.vugu.org. Godoc at https://godoc.org/github.com/vugu/vugu.
 - [WASM-FETCH](https://github.com/marwan-at-work/wasm-fetch) [![](https://pkg.go.dev/badge/github.com/marwan-at-work/wasm-fetch)](https://pkg.go.dev/marwan.io/wasm-fetch) — A go-wasm library that wraps the Fetch API. This is useful since TinyGo does not support `net/http`.
 
 **[⬆ back to top](#contents)**
