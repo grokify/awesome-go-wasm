@@ -6,6 +6,7 @@
   - [Contents](#contents)
   - [Go Guest Examples](#go-guests)
   - [TinyGo Guest Examples](#tinygo-guests)
+  - [Go Libraries](#go-libraries)
   - [Go Runtimes](#go-runtimes)
   - [Go Runtimes for Fastly](#go-runtimes-for-fastly)
 
