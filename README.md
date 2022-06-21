@@ -14,6 +14,8 @@
 
 _WebAssembly examples in Go_
 
+- [Understanding WebAssembly and interoperability with Go and Javascript](https://github.com/gptankit/go-wasm) - This is a gentle introduction to the world of WebAssembly from the lens of Go and Javascript. The purpose of this primer is to introduce WebAssembly to people who are already familiar with Go and want to use their understanding to build fast programs for the web and other environments outside the world of Go. If you are already substantially familiar with WebAssembly, you may want to directly jump to the experiments.
+- [go-wasm-examples](https://github.com/danieljoos/go-wasm-examples) — Some small examples of using Go and WebAssembly
 - [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 
 **[⬆ back to top](#contents)**
